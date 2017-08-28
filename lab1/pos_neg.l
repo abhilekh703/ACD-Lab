@@ -1,4 +1,3 @@
-
 %{
     int postiveno=0;
     int negtiveno=0;
