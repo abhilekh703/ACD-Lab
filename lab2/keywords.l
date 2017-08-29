@@ -15,7 +15,6 @@ main()
 yyin=fopen("num.c","r");
 yylex();
 }
-
 int yywrap()
 {
 return 1;
