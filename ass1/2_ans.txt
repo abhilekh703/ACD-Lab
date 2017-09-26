@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+writef("enter two numbers");
+readf("%d %d",&a,&b);
+c=a+b;
+writef("sum is %d",c);
+return 0;
+}
