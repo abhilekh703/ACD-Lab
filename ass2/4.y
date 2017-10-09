@@ -18,15 +18,13 @@ x:ID | NUMBER
 ;
 %%
 
-int yyerror(char *msg)
-{
-printf("the statement is invalid\n");
-exit(0);
-}
-
 #include "lex.yy.c"
 main()
 {
 printf("enter the statement\n");
 yyparse();
+}
+yyerror()
+{
+printf(" Invalid Expresion!!!!\n"); exit(0);
 }
