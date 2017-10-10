@@ -45,6 +45,7 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
+<<<<<<< HEAD
     NUM = 258,
     ID = 259
   };
@@ -52,6 +53,47 @@ extern int yydebug;
 /* Tokens.  */
 #define NUM 258
 #define ID 259
+=======
+    ID = 258,
+    NUM = 259,
+    SELECT = 260,
+    DISTINCT = 261,
+    FROM = 262,
+    WHERE = 263,
+    LE = 264,
+    GE = 265,
+    EQ = 266,
+    NE = 267,
+    OR = 268,
+    AND = 269,
+    LIKE = 270,
+    GROUP = 271,
+    HAVING = 272,
+    ORDER = 273,
+    ASC = 274,
+    DESC = 275
+  };
+#endif
+/* Tokens.  */
+#define ID 258
+#define NUM 259
+#define SELECT 260
+#define DISTINCT 261
+#define FROM 262
+#define WHERE 263
+#define LE 264
+#define GE 265
+#define EQ 266
+#define NE 267
+#define OR 268
+#define AND 269
+#define LIKE 270
+#define GROUP 271
+#define HAVING 272
+#define ORDER 273
+#define ASC 274
+#define DESC 275
+>>>>>>> 1c644a300bc486e0f011332e47d983c0844194ea
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED

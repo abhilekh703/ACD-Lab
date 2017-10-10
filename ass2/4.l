@@ -1,6 +1,3 @@
-%{
-#include "y.tab.c"
-%}
 
 %%
 "if" {return IF;}
@@ -11,3 +8,5 @@
 \n {return NL;}
 . {return yytext[0];}
 %%
+yywrap()
+{}

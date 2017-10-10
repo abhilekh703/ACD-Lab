@@ -61,4 +61,8 @@ main()
 {
     printf("Enter the query:");
     yyparse();
-}          
+} 
+yyerror()
+{
+printf(" Invalid Expresion!!!!\n"); exit(0);
+}         

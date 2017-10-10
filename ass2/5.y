@@ -54,5 +54,9 @@ main()
 {
 printf("Enter the exp: ");
 yyparse();
+printf(" Valid Expression \n");
 }
-
+yyerror()
+{
+printf(" Invalid Expresion!!!!\n"); exit(0);
+}

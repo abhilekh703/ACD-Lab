@@ -16,3 +16,5 @@ default return DEFAULT;
 "&&"    return AND;
 .    return yytext[0];
 %%
+yywrap()
+{}
