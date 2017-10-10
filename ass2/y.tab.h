@@ -45,55 +45,33 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
-<<<<<<< HEAD
     NUM = 258,
-    ID = 259
+    SIN = 259,
+    COS = 260,
+    TAN = 261,
+    POW = 262,
+    EXP = 263,
+    LOG = 264,
+    LOG10 = 265,
+    SINH = 266,
+    COSH = 267,
+    TANH = 268,
+    UMINUS = 269
   };
 #endif
 /* Tokens.  */
 #define NUM 258
-#define ID 259
-=======
-    ID = 258,
-    NUM = 259,
-    SELECT = 260,
-    DISTINCT = 261,
-    FROM = 262,
-    WHERE = 263,
-    LE = 264,
-    GE = 265,
-    EQ = 266,
-    NE = 267,
-    OR = 268,
-    AND = 269,
-    LIKE = 270,
-    GROUP = 271,
-    HAVING = 272,
-    ORDER = 273,
-    ASC = 274,
-    DESC = 275
-  };
-#endif
-/* Tokens.  */
-#define ID 258
-#define NUM 259
-#define SELECT 260
-#define DISTINCT 261
-#define FROM 262
-#define WHERE 263
-#define LE 264
-#define GE 265
-#define EQ 266
-#define NE 267
-#define OR 268
-#define AND 269
-#define LIKE 270
-#define GROUP 271
-#define HAVING 272
-#define ORDER 273
-#define ASC 274
-#define DESC 275
->>>>>>> 1c644a300bc486e0f011332e47d983c0844194ea
+#define SIN 259
+#define COS 260
+#define TAN 261
+#define POW 262
+#define EXP 263
+#define LOG 264
+#define LOG10 265
+#define SINH 266
+#define COSH 267
+#define TANH 268
+#define UMINUS 269
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
