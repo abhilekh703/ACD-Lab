@@ -30,3 +30,4 @@ main()
 printf("enter the statement\n");
 yyparse();
 }
+

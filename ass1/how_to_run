@@ -1,0 +1,5 @@
+ 
+    lex example.l
+    gcc -o example lex.yy.c
+    ./example
+    
